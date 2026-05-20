@@ -1,0 +1,33 @@
+public class Teste {
+    public static String maiorEMenor(int[] numeros) {
+
+        if( numeros == null || numeros.length == 0 ) {
+
+           return "Array inválido";
+        }
+
+        int menor = numeros[0];
+        int maior = numeros[0];
+
+        for(int i : numeros) {
+
+            if(menor > i) {
+                menor = i;
+            }
+
+            if(i > maior) {
+                maior = i;
+            }
+        }
+
+        return String.format("Maior: %d\nMenor: %d",maior,menor);
+    }
+
+    public static void main (String[] args) {
+
+        int[] numbers = {3,5,67,4,3,1,2,3,45,67,8,6};
+
+        System.out.println(MaioreMenor(numbers));
+
+    }
+}
