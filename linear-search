@@ -1,0 +1,19 @@
+public class Teste {
+    public static int indice(int[] numeros, int encontre) {
+
+        for (int i = 0; i < numeros.length; i++) {
+
+            if(numeros[i] == encontre) {
+
+                return i;
+            }
+        }
+        return -1;
+    }
+    public static void main (String[] args) {
+
+        int[] numbers = {1,3,4,5,4,2,44,3,23,12,3,8};
+
+        System.out.println("Índice: " + indice(numbers,4));
+    }
+}
