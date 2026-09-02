@@ -1,84 +1,92 @@
-```md
-# ☕ Studies in Java Language
+# Java Fundamentals
 
-Repositório criado para armazenar meus estudos, exercícios e pequenos projetos desenvolvidos durante minha jornada de aprendizado em Java.
+[Português](#português) | [English](#english)
 
-O objetivo deste repositório é praticar lógica de programação, conceitos fundamentais da linguagem e construção de soluções simples para fortalecer minha base em desenvolvimento back-end.
+## Português
 
----
+Coleção organizada de exercícios acadêmicos e estudos independentes que documentam minha evolução com Java. Os exemplos originais foram revisados e refatorados para aplicar nomes descritivos, pacotes consistentes, separação de responsabilidades e testes automatizados.
 
-## 🚀 Tecnologias utilizadas
+### Conteúdos
 
-- Java
-- IntelliJ IDEA
-- Git & GitHub
+- Fundamentos: entrada de dados, condicionais, métodos e operações matemáticas
+- Algoritmos: busca linear, Fibonacci, fatorial, números primos e matrizes
+- Coleções: operações com ArrayList
+- Orientação a objetos: encapsulamento, validação e modelagem de objetos
+- Qualidade: Maven, JUnit 5 e integração contínua
 
----
+### Estrutura
 
-## 📚 Conteúdos estudados
+~~~text
+src/
+├── main/java/io/github/matheusapolo/javafundamentals/
+│   ├── algorithms/
+│   ├── collections/
+│   ├── fundamentals/
+│   ├── games/
+│   ├── oop/
+│   └── patterns/
+└── test/java/io/github/matheusapolo/javafundamentals/
+~~~
 
-Durante os estudos deste repositório, pratiquei conceitos como:
+### Como executar
 
-- Estruturas condicionais
-- Estruturas de repetição
-- Métodos e funções
-- Arrays e ArrayList
-- Programação orientada a objetos
-- Entrada de dados com Scanner
-- Lógica de programação
-- Manipulação básica de objetos
+Requisitos:
 
----
+- Java 17 ou superior
+- Maven 3.9 ou superior
 
-## 📂 Projetos e exercícios
+Execute os testes:
 
-### 🎯 Guessing Game
-Jogo simples de adivinhação de números utilizando estruturas condicionais e loops.
+~~~bash
+mvn test
+~~~
 
-### 🧮 Basic Calculator
-Calculadora básica desenvolvida em Java para praticar operadores, métodos e entrada de dados.
+Compile o projeto:
 
-### 🔢 Factorial
-Cálculo de fatorial utilizando métodos e estruturas de repetição.
+~~~bash
+mvn package
+~~~
 
-### 🌀 Fibonacci Method
-Implementação da sequência de Fibonacci com entrada de dados do usuário.
+Cada exemplo com método main pode ser executado pela IDE ou pelo terminal após a compilação.
 
-### ✅ Prime Number Check
-Verificador de números primos utilizando lógica matemática e repetição.
+### Contexto
 
-### 📋 ArrayList
-Exercícios utilizando `ArrayList` para prática de coleções em Java.
+Este repositório começou como uma coleção de exercícios introdutórios. A estrutura atual preserva os conceitos praticados, ao mesmo tempo que demonstra a evolução do código por meio do histórico de commits.
 
-### 📦 Object Usage
-Exemplo simples de utilização de objetos e classes em Java.
+## English
 
-### 🎨 Drawing
-Projeto simples focado em padrões visuais e lógica utilizando caracteres no terminal.
+An organized collection of academic exercises and independent studies documenting my progress with Java. The original examples were reviewed and refactored to use descriptive names, consistent packages, separated responsibilities, and automated tests.
 
----
+### Topics
 
-## 🎓 Objetivo
+- Fundamentals: user input, conditionals, methods, and mathematical operations
+- Algorithms: linear search, Fibonacci, factorial, prime numbers, and matrices
+- Collections: ArrayList operations
+- Object-oriented programming: encapsulation, validation, and object modeling
+- Quality: Maven, JUnit 5, and continuous integration
 
-Este repositório faz parte da minha evolução como estudante de Engenharia de Software e desenvolvedor back-end.
+### Running the project
 
-Aqui compartilho minha prática diária, evolução na linguagem Java e experimentos durante os estudos.
+Requirements:
 
----
+- Java 17 or newer
+- Maven 3.9 or newer
 
-## 📌 Próximos passos
+Run tests:
 
-- Aprender Spring Boot
-- Desenvolver APIs REST
-- Integrar banco de dados
-- Criar projetos mais completos
-- Melhorar arquitetura e organização de código
+~~~bash
+mvn test
+~~~
 
----
+Build the project:
 
-## 👨‍💻 Autor
+~~~bash
+mvn package
+~~~
 
-Matheus Apolo
+## Author
 
-🌐 Portfolio: https://matheusapolo.github.io  
-```
+Matheus de Castro
+
+- [GitHub](https://github.com/MatheusApolo)
+- [LinkedIn](https://www.linkedin.com/in/matheus-de-castro-b6069440b/)
